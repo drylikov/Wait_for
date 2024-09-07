@@ -1,4 +1,4 @@
-# wait-for
+# Wait-for
 
 A small utility that waits for a file to exist, optionally with some permissions.
 
@@ -23,7 +23,7 @@ $ cmake --build .
 ## Usage
 
 ```
-wait-for [--help] [-rwx] [-dfps] [-U <username>] <file>
+wait_for [--help] [-rwx] [-dfps] [-U <username>] <file>
 
 Wait for a file to exist and optionally have one or modes
 
